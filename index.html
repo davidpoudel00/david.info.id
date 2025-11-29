@@ -128,13 +128,15 @@
   font-weight: 500;
 }
 
-.clean-about-box {
-  background: #ffffff;
+.clean-about-box
+ {
+  background: rgba(0, 0, 0, 0.2); /* Transparent dark */
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2); /* subtle border */
+  color: #fff; /* Ensure text stays readable */
+  backdrop-filter: blur(4px); /* Glass effect */
 }
-
 .clean-about-box p {
   margin-bottom: 8px;
   font-size: 15px;
